@@ -1,10 +1,11 @@
 body {
-    background-color: transparent; /* Make the body background transparent */
+    background-color: rgba(0, 0, 0, 0); /* Transparent background for the body */
 }
 
 .autocomplete {
     position: relative;
     display: inline-block;
+    background-color: rgba(255, 255, 255, 0); /* Transparent background for the autocomplete container */
 }
 
 #searchInput {
@@ -12,7 +13,7 @@ body {
     width: 100%;
     font-size: 16px;
     border: 1px solid #ccc;
-    background-color: #fff; /* Keep the input background white */
+    background-color: #fff; /* White background for the input field */
     color: #000; /* Text color */
 }
 
@@ -30,13 +31,13 @@ body {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: #fff; /* Keep the autocomplete list background white */
+    background-color: #fff; /* White background for the autocomplete list */
 }
 
 .autocomplete-items div {
     padding: 10px;
     cursor: pointer;
-    background-color: #fff; /* Keep individual items background white */
+    background-color: #fff; /* White background for individual items */
     border-bottom: 1px solid #d4d4d4;
 }
 
