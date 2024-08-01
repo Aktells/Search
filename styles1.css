@@ -1,6 +1,5 @@
 body {
-    background: none;
-    background-color: transparent;
+    background-color: transparent; /* Make the body background transparent */
 }
 
 .autocomplete {
@@ -13,7 +12,7 @@ body {
     width: 100%;
     font-size: 16px;
     border: 1px solid #ccc;
-    background-color: transparent; /* Make input background transparent */
+    background-color: #fff; /* Keep the input background white */
     color: #000; /* Text color */
 }
 
@@ -31,13 +30,13 @@ body {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: transparent; /* Make autocomplete list background transparent */
+    background-color: #fff; /* Keep the autocomplete list background white */
 }
 
 .autocomplete-items div {
     padding: 10px;
     cursor: pointer;
-    background-color: #fff; /* Make individual items background color white for visibility */
+    background-color: #fff; /* Keep individual items background white */
     border-bottom: 1px solid #d4d4d4;
 }
 
