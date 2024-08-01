@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    background: none;
+    background-color: transparent;
 }
 
 .autocomplete {
@@ -7,13 +8,18 @@ body {
     display: inline-block;
 }
 
-input[type="text"] {
-    width: 150%;
-    box-sizing: border-box;
+#searchInput {
     padding: 10px;
+    width: 100%;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    background-color: transparent; /* Make input background transparent */
+    color: #000; /* Text color */
+}
+
+#searchInput:focus {
+    border-color: #007BFF; /* Focus border color */
+    outline: none;
 }
 
 .autocomplete-items {
@@ -25,19 +31,18 @@ input[type="text"] {
     top: 100%;
     left: 0;
     right: 0;
-    max-height: 200px;
-    overflow-y: auto;
+    background-color: transparent; /* Make autocomplete list background transparent */
 }
 
 .autocomplete-items div {
     padding: 10px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #fff; /* Make individual items background color white for visibility */
     border-bottom: 1px solid #d4d4d4;
 }
 
 .autocomplete-items div:hover {
-    background-color: #e9e9e9;
+    background-color: #e9e9e9; /* Background color when hovering over items */
 }
 
 .autocomplete-active {
